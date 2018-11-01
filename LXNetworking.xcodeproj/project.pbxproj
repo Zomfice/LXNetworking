@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1337FB03576BD21F02E353C9 /* libPods-LXNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EFA1B059E13FB3753BE8CC /* libPods-LXNetworking.a */; };
+		7349A7C6218AE9270073077B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349A7C5218AE9270073077B /* AppDelegate.m */; };
+		7349A7C9218AE9270073077B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349A7C8218AE9270073077B /* ViewController.m */; };
+		7349A7CC218AE9270073077B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7349A7CA218AE9270073077B /* Main.storyboard */; };
+		7349A7CE218AE9280073077B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7349A7CD218AE9280073077B /* Assets.xcassets */; };
+		7349A7D1218AE9280073077B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7349A7CF218AE9280073077B /* LaunchScreen.storyboard */; };
+		7349A7D4218AE9280073077B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349A7D3218AE9280073077B /* main.m */; };
+		7349A7E6218AEE7F0073077B /* LXBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349A7E5218AEE7F0073077B /* LXBatchRequest.m */; };
+		7349A7E9218AEE8F0073077B /* LXRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349A7E8218AEE8F0073077B /* LXRequest.m */; };
+		7349A7EC218AEE9F0073077B /* LXChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349A7EB218AEE9F0073077B /* LXChainRequest.m */; };
+		7349A7EF218AEEDC0073077B /* LXNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349A7EE218AEEDC0073077B /* LXNetworkTool.m */; };
+		7349A7F2218AEEF00073077B /* LXRequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349A7F1218AEEF00073077B /* LXRequestTool.m */; };
+		7349A7F6218AEF470073077B /* LXRequestCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349A7F5218AEF470073077B /* LXRequestCategory.m */; };
+		7349A7F9218AEF740073077B /* LXRequestNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349A7F8218AEF740073077B /* LXRequestNetworkManager.m */; };
+		7349A7FC218AEF940073077B /* LXRequestUniquePackage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349A7FB218AEF940073077B /* LXRequestUniquePackage.m */; };
+		7349A7FF218AEFB30073077B /* LXBatchRequestSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349A7FE218AEFB30073077B /* LXBatchRequestSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04EFA1B059E13FB3753BE8CC /* libPods-LXNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C5DF005FDE0DDB080B209B /* Pods-LXNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXNetworking/Pods-LXNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		7349A7C1218AE9270073077B /* LXNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7349A7C4218AE9270073077B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7349A7C5218AE9270073077B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7349A7C7218AE9270073077B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7349A7C8218AE9270073077B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7349A7CB218AE9270073077B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7349A7CD218AE9280073077B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7349A7D0218AE9280073077B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7349A7D2218AE9280073077B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7349A7D3218AE9280073077B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7349A7DF218AEE200073077B /* LXNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXNetworking.h; sourceTree = "<group>"; };
+		7349A7E0218AEE500073077B /* LXNetworkingDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXNetworkingDefine.h; sourceTree = "<group>"; };
+		7349A7E4218AEE7F0073077B /* LXBatchRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBatchRequest.h; sourceTree = "<group>"; };
+		7349A7E5218AEE7F0073077B /* LXBatchRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBatchRequest.m; sourceTree = "<group>"; };
+		7349A7E7218AEE8F0073077B /* LXRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXRequest.h; sourceTree = "<group>"; };
+		7349A7E8218AEE8F0073077B /* LXRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXRequest.m; sourceTree = "<group>"; };
+		7349A7EA218AEE9F0073077B /* LXChainRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXChainRequest.h; sourceTree = "<group>"; };
+		7349A7EB218AEE9F0073077B /* LXChainRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXChainRequest.m; sourceTree = "<group>"; };
+		7349A7ED218AEEDC0073077B /* LXNetworkTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXNetworkTool.h; sourceTree = "<group>"; };
+		7349A7EE218AEEDC0073077B /* LXNetworkTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXNetworkTool.m; sourceTree = "<group>"; };
+		7349A7F0218AEEF00073077B /* LXRequestTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXRequestTool.h; sourceTree = "<group>"; };
+		7349A7F1218AEEF00073077B /* LXRequestTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXRequestTool.m; sourceTree = "<group>"; };
+		7349A7F4218AEF470073077B /* LXRequestCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXRequestCategory.h; sourceTree = "<group>"; };
+		7349A7F5218AEF470073077B /* LXRequestCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXRequestCategory.m; sourceTree = "<group>"; };
+		7349A7F7218AEF740073077B /* LXRequestNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXRequestNetworkManager.h; sourceTree = "<group>"; };
+		7349A7F8218AEF740073077B /* LXRequestNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXRequestNetworkManager.m; sourceTree = "<group>"; };
+		7349A7FA218AEF940073077B /* LXRequestUniquePackage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXRequestUniquePackage.h; sourceTree = "<group>"; };
+		7349A7FB218AEF940073077B /* LXRequestUniquePackage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXRequestUniquePackage.m; sourceTree = "<group>"; };
+		7349A7FD218AEFB30073077B /* LXBatchRequestSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXBatchRequestSessionManager.h; sourceTree = "<group>"; };
+		7349A7FE218AEFB30073077B /* LXBatchRequestSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXBatchRequestSessionManager.m; sourceTree = "<group>"; };
+		9677B80A458A3D937D940045 /* Pods-LXNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXNetworking/Pods-LXNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7349A7BE218AE9270073077B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1337FB03576BD21F02E353C9 /* libPods-LXNetworking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		208FD5A5F5C90AD93ED7D699 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9677B80A458A3D937D940045 /* Pods-LXNetworking.debug.xcconfig */,
+				63C5DF005FDE0DDB080B209B /* Pods-LXNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7349A7B8218AE9270073077B = {
+			isa = PBXGroup;
+			children = (
+				7349A7C3218AE9270073077B /* LXNetworking */,
+				7349A7C2218AE9270073077B /* Products */,
+				208FD5A5F5C90AD93ED7D699 /* Pods */,
+				FF6CD5922085A8191A467A63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7349A7C2218AE9270073077B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7349A7C1218AE9270073077B /* LXNetworking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7349A7C3218AE9270073077B /* LXNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7349A7DA218AEE090073077B /* LXNetworking */,
+				7349A7C4218AE9270073077B /* AppDelegate.h */,
+				7349A7C5218AE9270073077B /* AppDelegate.m */,
+				7349A7C7218AE9270073077B /* ViewController.h */,
+				7349A7C8218AE9270073077B /* ViewController.m */,
+				7349A7CA218AE9270073077B /* Main.storyboard */,
+				7349A7CD218AE9280073077B /* Assets.xcassets */,
+				7349A7CF218AE9280073077B /* LaunchScreen.storyboard */,
+				7349A7D2218AE9280073077B /* Info.plist */,
+				7349A7D3218AE9280073077B /* main.m */,
+			);
+			path = LXNetworking;
+			sourceTree = "<group>";
+		};
+		7349A7DA218AEE090073077B /* LXNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7349A7DF218AEE200073077B /* LXNetworking.h */,
+				7349A7DD218AEE090073077B /* Request */,
+				7349A7F3218AEF150073077B /* Category */,
+				7349A7DB218AEE090073077B /* Cache */,
+				7349A7DC218AEE090073077B /* Dispose */,
+				7349A7DE218AEE090073077B /* Utility */,
+			);
+			path = LXNetworking;
+			sourceTree = "<group>";
+		};
+		7349A7DB218AEE090073077B /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		7349A7DC218AEE090073077B /* Dispose */ = {
+			isa = PBXGroup;
+			children = (
+				7349A7F7218AEF740073077B /* LXRequestNetworkManager.h */,
+				7349A7F8218AEF740073077B /* LXRequestNetworkManager.m */,
+				7349A7FA218AEF940073077B /* LXRequestUniquePackage.h */,
+				7349A7FB218AEF940073077B /* LXRequestUniquePackage.m */,
+				7349A7FD218AEFB30073077B /* LXBatchRequestSessionManager.h */,
+				7349A7FE218AEFB30073077B /* LXBatchRequestSessionManager.m */,
+			);
+			path = Dispose;
+			sourceTree = "<group>";
+		};
+		7349A7DD218AEE090073077B /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				7349A7E7218AEE8F0073077B /* LXRequest.h */,
+				7349A7E8218AEE8F0073077B /* LXRequest.m */,
+				7349A7E4218AEE7F0073077B /* LXBatchRequest.h */,
+				7349A7E5218AEE7F0073077B /* LXBatchRequest.m */,
+				7349A7EA218AEE9F0073077B /* LXChainRequest.h */,
+				7349A7EB218AEE9F0073077B /* LXChainRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		7349A7DE218AEE090073077B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				7349A7E0218AEE500073077B /* LXNetworkingDefine.h */,
+				7349A7ED218AEEDC0073077B /* LXNetworkTool.h */,
+				7349A7EE218AEEDC0073077B /* LXNetworkTool.m */,
+				7349A7F0218AEEF00073077B /* LXRequestTool.h */,
+				7349A7F1218AEEF00073077B /* LXRequestTool.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		7349A7F3218AEF150073077B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7349A7F4218AEF470073077B /* LXRequestCategory.h */,
+				7349A7F5218AEF470073077B /* LXRequestCategory.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FF6CD5922085A8191A467A63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04EFA1B059E13FB3753BE8CC /* libPods-LXNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7349A7C0218AE9270073077B /* LXNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7349A7D7218AE9280073077B /* Build configuration list for PBXNativeTarget "LXNetworking" */;
+			buildPhases = (
+				C9FE6BAD78C9374E251FBABF /* [CP] Check Pods Manifest.lock */,
+				7349A7BD218AE9270073077B /* Sources */,
+				7349A7BE218AE9270073077B /* Frameworks */,
+				7349A7BF218AE9270073077B /* Resources */,
+				772B3BB09DA7FA130DADF2A8 /* [CP] Embed Pods Frameworks */,
+				8072E6C27F820461A9760030 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXNetworking;
+			productName = LXNetworking;
+			productReference = 7349A7C1218AE9270073077B /* LXNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7349A7B9218AE9270073077B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LX;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = xllpp;
+				TargetAttributes = {
+					7349A7C0218AE9270073077B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7349A7BC218AE9270073077B /* Build configuration list for PBXProject "LXNetworking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7349A7B8218AE9270073077B;
+			productRefGroup = 7349A7C2218AE9270073077B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7349A7C0218AE9270073077B /* LXNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7349A7BF218AE9270073077B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7349A7D1218AE9280073077B /* LaunchScreen.storyboard in Resources */,
+				7349A7CE218AE9280073077B /* Assets.xcassets in Resources */,
+				7349A7CC218AE9270073077B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		772B3BB09DA7FA130DADF2A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXNetworking/Pods-LXNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8072E6C27F820461A9760030 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LXNetworking/Pods-LXNetworking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9FE6BAD78C9374E251FBABF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7349A7BD218AE9270073077B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7349A7EF218AEEDC0073077B /* LXNetworkTool.m in Sources */,
+				7349A7C9218AE9270073077B /* ViewController.m in Sources */,
+				7349A7F9218AEF740073077B /* LXRequestNetworkManager.m in Sources */,
+				7349A7FC218AEF940073077B /* LXRequestUniquePackage.m in Sources */,
+				7349A7F6218AEF470073077B /* LXRequestCategory.m in Sources */,
+				7349A7D4218AE9280073077B /* main.m in Sources */,
+				7349A7E6218AEE7F0073077B /* LXBatchRequest.m in Sources */,
+				7349A7E9218AEE8F0073077B /* LXRequest.m in Sources */,
+				7349A7F2218AEEF00073077B /* LXRequestTool.m in Sources */,
+				7349A7C6218AE9270073077B /* AppDelegate.m in Sources */,
+				7349A7EC218AEE9F0073077B /* LXChainRequest.m in Sources */,
+				7349A7FF218AEFB30073077B /* LXBatchRequestSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7349A7CA218AE9270073077B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7349A7CB218AE9270073077B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7349A7CF218AE9280073077B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7349A7D0218AE9280073077B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7349A7D5218AE9280073077B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7349A7D6218AE9280073077B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7349A7D8218AE9280073077B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9677B80A458A3D937D940045 /* Pods-LXNetworking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KQQLB9477;
+				INFOPLIST_FILE = LXNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xllpp.www.LXNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7349A7D9218AE9280073077B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C5DF005FDE0DDB080B209B /* Pods-LXNetworking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KQQLB9477;
+				INFOPLIST_FILE = LXNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xllpp.www.LXNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7349A7BC218AE9270073077B /* Build configuration list for PBXProject "LXNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7349A7D5218AE9280073077B /* Debug */,
+				7349A7D6218AE9280073077B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7349A7D7218AE9280073077B /* Build configuration list for PBXNativeTarget "LXNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7349A7D8218AE9280073077B /* Debug */,
+				7349A7D9218AE9280073077B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7349A7B9218AE9270073077B /* Project object */;
+}
